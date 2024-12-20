@@ -11,13 +11,13 @@ export default function Footer() {
         <h2 className="py-2 text-white">Redes Sociais</h2>
         <div className="flex flex-col gap-y-3">
           <a href="" className="cursor-pointer">
-            <SlSocialInstagram className="text-white text-xl" />
+            <SlSocialInstagram className="text-white text-xl hover:text-red-600" />
           </a>
           <a href="" className="cursor-pointer">
-            <SlSocialFacebook className="text-white text-xl" />
+            <SlSocialFacebook className="text-white text-xl hover:text-red-600" />
           </a>
           <a href="" className="cursor-pointer">
-            <SlSocialGithub className="text-white text-xl" />
+            <SlSocialGithub className="text-white text-xl hover:text-red-600" />
           </a>
         </div>
       </div>
